@@ -1,0 +1,6 @@
+# Dependency inventory, not a lockfile for the original Python 3.5 board image.
+# Use versions supplied by the board SDK or compatible with its Python ABI.
+numpy
+opencv-python
+pyserial
+# PaddleLite is supplied under third_party/; do not substitute a current pip package.

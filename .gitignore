@@ -1,0 +1,35 @@
+# Local environment, editor state and preserved build/log artifacts
+.local/
+venv/
+.venv/
+env/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.DS_Store
+._*
+Thumbs.db
+*.log
+nohup.out
+.env
+.env.*
+!.env.example
+
+# Captures and local validation datasets are not part of the competition archive.
+/image/**
+!/image/front_image/
+!/image/front_image/.gitkeep
+!/image/side_image/
+!/image/side_image/.gitkeep
+/test/**
+!/test/.gitkeep
+*.avi
+*.mp4
+/result.jpg
+
+# Keep the supplied deployment libraries and model/params files versioned.
